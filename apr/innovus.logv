@@ -1,0 +1,62 @@
+[04/09 14:00:06      0s] 
+[04/09 14:00:06      0s] Cadence Innovus(TM) Implementation System.
+[04/09 14:00:06      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[04/09 14:00:06      0s] 
+[04/09 14:00:06      0s] Version:	v17.11-s080_1, built Fri Aug 4 11:13:11 PDT 2017
+[04/09 14:00:06      0s] Options:	
+[04/09 14:00:06      0s] Date:		Wed Apr  9 14:00:06 2025
+[04/09 14:00:06      0s] Host:		bowser.ece.utexas.edu (x86_64 w/Linux 4.18.0-553.45.1.el8_10.x86_64) (16cores*64cpus*Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz 22528KB)
+[04/09 14:00:06      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[04/09 14:00:06      0s] 
+[04/09 14:00:06      0s] License:
+[04/09 14:00:06      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[04/09 14:00:06      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[04/09 14:00:06      0s] **WARN: (IMPSYT-1507):	The display is invalid and will start in no window mode
+[04/09 14:00:07      0s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : /usr/local/packages/cadence_2017/innovus171/tools.lnx86/lib/64bit/libstdc++.so.6: version `CXXABI_1.3.8' not found (required by /usr/local/packages/cadence_2022/INNOVUS211/oa_v22.60.087/lib/linux_rhel60_64/opt/liboaDesign.so)
+
+**ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /usr/local/packages/cadence_2017/innovus171/tools.lnx86/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+
+**ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+
+@(#)CDS: Innovus v17.11-s080_1 (64bit) 08/04/2017 11:13 (Linux 2.6.18-194.el5)
+[04/09 14:00:14      6s] @(#)CDS: NanoRoute 17.11-s080_1 NR170721-2155/17_11-UB (database version 2.30, 390.7.1) {superthreading v1.44}
+[04/09 14:00:14      6s] @(#)CDS: AAE 17.11-s034 (64bit) 08/04/2017 (Linux 2.6.18-194.el5)
+[04/09 14:00:14      6s] @(#)CDS: CTE 17.11-s053_1 () Aug  1 2017 23:31:41 ( )
+[04/09 14:00:14      6s] @(#)CDS: SYNTECH 17.11-s012_1 () Jul 21 2017 02:29:12 ( )
+[04/09 14:00:14      6s] @(#)CDS: CPE v17.11-s095
+[04/09 14:00:14      6s] @(#)CDS: IQRC/TQRC 16.1.1-s215 (64bit) Thu Jul  6 20:18:10 PDT 2017 (Linux 2.6.18-194.el5)
+[04/09 14:00:14      6s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[04/09 14:00:14      6s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[04/09 14:00:14      6s] @(#)CDS: RCDB 11.10
+[04/09 14:00:14      6s] --- Running on bowser.ece.utexas.edu (x86_64 w/Linux 4.18.0-553.45.1.el8_10.x86_64) (16cores*64cpus*Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz 22528KB) ---
+[04/09 14:00:14      6s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_2454497_bowser.ece.utexas.edu_rak2973_uM0NKJ.
+
+[04/09 14:00:14      6s] Change the soft stacksize limit to 0.2%RAM (771 mbytes). Set global soft_stack_size_limit to change the value.
+[04/09 14:00:14      6s] 
+[04/09 14:00:14      6s] **INFO:  MMMC transition support version v31-84 
+[04/09 14:00:14      6s] 
+[04/09 14:00:15      6s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/09 14:00:15      6s] <CMD> suppressMessage ENCEXT-2799
+[04/09 14:00:15      6s] <CMD> getVersion
+[04/09 14:00:57      6s] <CMD> init_design -top top -verilog top.v -def top.def -sdc top.sdc -lef gscl45nm.lef
+[04/09 14:00:57      6s] 
+[04/09 14:00:57      6s] Usage: init_design [-help] [-setup <string> -hold <string>]
+[04/09 14:00:57      6s] 
+[04/09 14:00:57      6s] **ERROR: (IMPTCM-48):	"-top" is not a legal option for command "init_design". Either the current option or an option prior to it is not specified correctly.
+  
+[04/09 14:01:15      6s] <CMD> init_design -top top -verilog top.v -def top.def -sdc top.sdc -lef gscl45nm.lef
+[04/09 14:01:15      6s] 
+[04/09 14:01:15      6s] Usage: init_design [-help] [-setup <string> -hold <string>]
+[04/09 14:01:15      6s] 
+[04/09 14:01:15      6s] **ERROR: (IMPTCM-48):	"-top" is not a legal option for command "init_design". Either the current option or an option prior to it is not specified correctly.
+  
+[04/09 14:01:16      6s] 
+[04/09 14:01:16      6s] *** Memory Usage v#1 (Current mem = 432.848M, initial mem = 186.469M) ***
+[04/09 14:01:16      6s] 
+[04/09 14:01:16      6s] *** Summary of all messages that are not suppressed in this session:
+[04/09 14:01:16      6s] Severity  ID               Count  Summary                                  
+[04/09 14:01:16      6s] ERROR     IMPOAX-142           3  %s                                       
+[04/09 14:01:16      6s] ERROR     IMPTCM-48            2  "%s" is not a legal option for command "...
+[04/09 14:01:16      6s] *** Message Summary: 0 warning(s), 5 error(s)
+[04/09 14:01:16      6s] 
+[04/09 14:01:16      6s] --- Ending "Innovus" (totcpu=0:00:06.9, real=0:01:10, mem=432.8M) ---
